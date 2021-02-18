@@ -1,5 +1,7 @@
 package CapgeminiAssignment;
 
+
+
 class SiCi {
     public double simpleInterest(double p,int t,double r){
     	double SimpleInterest = (p * r * t) /(100);
@@ -11,7 +13,7 @@ class SiCi {
     	double CompoundInterest = p * (Math.pow(1 + (r/100), t) - 1);
     	System.out.println("Compound intrest of "+ p + " is : "+CompoundInterest);
     	return  p;
-    	
+
     }
 }
 public class Assignment1Q3 {

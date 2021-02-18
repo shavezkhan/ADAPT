@@ -1,4 +1,4 @@
-Q1: package CapgeminiAssignment;
+package CapgeminiAssignment;
 
 import java.util.Scanner;
 
