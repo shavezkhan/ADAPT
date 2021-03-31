@@ -16,7 +16,7 @@ class SiCi {
 
     }
 }
-public class Assignment1Q3 {
+public class Bdsa3 {
     public static void main (String args[]) {
     	SiCi a = new SiCi();
     	{

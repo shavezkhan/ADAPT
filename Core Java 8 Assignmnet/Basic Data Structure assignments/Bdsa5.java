@@ -8,7 +8,7 @@ class TaxAmount{
     	Scanner sc=new Scanner(System.in);
 		System.out.print("Enter CTC= ");
 		int ctc =sc.nextInt();
-		
+
 		if(ctc<180001)
 		{
 			tax = 0;
@@ -30,20 +30,20 @@ class TaxAmount{
 			System.out.println("Tax is : " +tax);
 		}
 		return 0;
-  
-    
+
+
     }
     }
 
     package practice;
 
 
-public class Assignment1Q5 {
+public class Bdsa5 {
     public static void main(String args[]) {
     	TaxAmount a = new TaxAmount();
     	{
     		a.calculateTaxAmount();
     	}
-    			
+
     }
 }

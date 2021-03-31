@@ -2,7 +2,7 @@ package CapgeminiAssignment;
 
 import java.util.Scanner;
 
-class pract {
+class arms {
 	public boolean armstrongCheck()
 	{
 		int num1, number, temp, total = 0;
@@ -23,10 +23,10 @@ class pract {
 	}
 
 }
-public class Assignment1Q1{
+public class Bdsa1{
 
 	public static void main(String[] args) {
-	pract a = new pract();
+	arms a = new arms();
 	{
 		a.armstrongCheck();
 	}

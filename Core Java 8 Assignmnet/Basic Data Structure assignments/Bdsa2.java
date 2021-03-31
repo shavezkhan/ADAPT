@@ -1,7 +1,7 @@
 package CapgeminiAssignment;
 
 
-class pract {
+class Arms {
 	public boolean armstrongCheck()
 	{
 		int number;
@@ -20,20 +20,20 @@ class pract {
 
         if(i == total)
             System.out.println(i + " is an Armstrong number");
-       
+
 	}
 		return true;
 	}
 }
 
-public class Assignment1Q2{
+public class Bdsa2{
 
 	public static void main(String[] args) {
-	pract a = new pract();
+	Arms a = new Arms();
 	{
 		a.armstrongCheck();
 	}
-	
+
 	}
 
 }

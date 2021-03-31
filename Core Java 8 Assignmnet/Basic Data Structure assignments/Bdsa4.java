@@ -1,6 +1,6 @@
 package CapgeminiAssignment;
 
-class ResultDeclaration{
+class Result{
     public String declareResults( double num1, double num2,double num3) {
 		int count = 0;
     	if(num1 > 60) {
@@ -12,7 +12,7 @@ class ResultDeclaration{
         if(num3 > 60) {
         	count++;
         }
-        
+
         if(count == 3 ) {
         	System.out.println("Result is Passed");
         } else if(count == 2) {
@@ -24,10 +24,10 @@ class ResultDeclaration{
     }
 
 }
-public class Assignment1Q4 {
+public class Bdsa4 {
     public static void main(String[] args) {
-    	
-    	ResultDeclaration a = new ResultDeclaration();
+
+    	Result a = new Result();
     	{
     		a.declareResults(70, 70, 50);
     		a.declareResults(10,10,10);
